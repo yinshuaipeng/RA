@@ -25,6 +25,10 @@ int main(void)
     LED_Init();                     //初始化LED  
     while(1)
     {
+		while（1）
+		{
+			
+		}
         HAL_GPIO_WritePin(GPIOB,GPIO_PIN_1,GPIO_PIN_RESET); //LED0对应引脚PB1拉低，亮，等同于LED0(0)
         HAL_GPIO_WritePin(GPIOB,GPIO_PIN_0,GPIO_PIN_SET);   //LED1对应引脚PB0拉高，灭，等同于LED1(1)
         delay_ms(100);										//延时500ms
