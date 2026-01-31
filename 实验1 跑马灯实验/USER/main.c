@@ -25,6 +25,7 @@ int main(void)
     LED_Init();                     //≥ı ºªØLED  
     while(1)
     {
+		
 		while£®1£©
 		{
 			
